@@ -1,0 +1,62 @@
+/*
+    Colors:
+    light grey: #D3D3D3;
+    deep blue: #0066FF;
+    bright blue sky: #3399FF;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 25px;
+}
+
+.add a {
+    font-size: 40px;
+    color: #0066FF;
+    text-decoration: none;
+}
+
+.add a:hover {
+    color: #3399FF;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+
+    margin: 25px 0;
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.title a {
+    float: right;
+    color: #0066FF;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.title a:hover {
+    color: #3399FF;
+    text-decoration: underline;
+}
+
+.album {
+    margin: 10px;
+    float: left;
+    width: calc(100% / 6 - 20px);
+    height: 200px;
+    background: red;
+    /* border: 1px solid black; */
+}
